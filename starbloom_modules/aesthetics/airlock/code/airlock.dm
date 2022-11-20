@@ -487,7 +487,7 @@
 	airlock_type = /obj/machinery/door/airlock/captain
 
 /obj/structure/door_assembly/door_assembly_hop
-	name = "seneschal airlock assembly"
+	name = "head of personnel airlock assembly"
 	icon = 'starbloom_modules/aesthetics/airlock/icons/airlocks/hop.dmi'
 	glass_type = /obj/machinery/door/airlock/command/glass
 	airlock_type = /obj/machinery/door/airlock/hop
@@ -499,19 +499,19 @@
 	airlock_type = /obj/machinery/door/airlock/hos
 
 /obj/structure/door_assembly/door_assembly_cmo
-	name = "biolab overseer airlock assembly"
+	name = "chief medical officer airlock assembly"
 	icon = 'starbloom_modules/aesthetics/airlock/icons/airlocks/cmo.dmi'
 	glass_type = /obj/machinery/door/airlock/cmo/glass
 	airlock_type = /obj/machinery/door/airlock/cmo
 
 /obj/structure/door_assembly/door_assembly_ce
-	name = "grand artificer airlock assembly"
+	name = "chief engineer airlock assembly"
 	icon = 'starbloom_modules/aesthetics/airlock/icons/airlocks/ce.dmi'
 	glass_type = /obj/machinery/door/airlock/ce/glass
 	airlock_type = /obj/machinery/door/airlock/ce
 
 /obj/structure/door_assembly/door_assembly_rd
-	name = "research overseer airlock assembly"
+	name = "research director airlock assembly"
 	icon = 'starbloom_modules/aesthetics/airlock/icons/airlocks/rd.dmi'
 	glass_type = /obj/machinery/door/airlock/rd/glass
 	airlock_type = /obj/machinery/door/airlock/rd

@@ -602,8 +602,8 @@
 	isGlass = FALSE
 
 /obj/item/reagent_containers/food/drinks/flask/gold
-	name = "exarch's flask"
-	desc = "A gold flask belonging to the Exarch."
+	name = "captain's flask"
+	desc = "A gold flask belonging to the Captain."
 	icon_state = "flask_gold"
 	custom_materials = list(/datum/material/gold=500)
 
@@ -830,7 +830,7 @@
 
 /obj/item/reagent_containers/food/drinks/soda_cans/thirteenloko
 	name = "Thirteen Loko"
-	desc = "The Biolab Overseer has advised crew members that consumption of Thirteen Loko may result in seizures, blindness, drunkenness, or even death. Please Drink Responsibly."
+	desc = "The Chief Medical Officer has advised crew members that consumption of Thirteen Loko may result in seizures, blindness, drunkenness, or even death. Please Drink Responsibly."
 	icon_state = "thirteen_loko"
 	list_reagents = list(/datum/reagent/consumable/ethanol/thirteenloko = 30)
 	foodtype = SUGAR | JUNKFOOD

@@ -429,7 +429,7 @@
 
 /datum/supply_pack/security/securityclothes
 	name = "Security Clothing Crate"
-	desc = "Contains appropriate outfits for the station's private security force. Contains outfits for the Warden, Justiciar, and two Security Officers. Each outfit comes with a rank-appropriate jumpsuit, suit, and beret. Requires Security access to open."
+	desc = "Contains appropriate outfits for the station's private security force. Contains outfits for the Warden, Head of Security, and two Security Officers. Each outfit comes with a rank-appropriate jumpsuit, suit, and beret. Requires Security access to open."
 	cost = CARGO_CRATE_VALUE * 3
 	access_view = ACCESS_SECURITY
 	contains = list(/obj/item/clothing/under/rank/security/officer/formal,
@@ -833,7 +833,7 @@
 
 /datum/supply_pack/engineering/shuttle_engine
 	name = "Shuttle Engine Crate"
-	desc = "Through advanced bluespace-shenanigans, our engineers have managed to fit an entire shuttle engine into one tiny little crate. Requires Grand Artificer access to open."
+	desc = "Through advanced bluespace-shenanigans, our engineers have managed to fit an entire shuttle engine into one tiny little crate. Requires Chief Engineer access to open."
 	cost = CARGO_CRATE_VALUE * 6
 	access = ACCESS_CE
 	access_view = ACCESS_CE
@@ -969,7 +969,7 @@
 
 /datum/supply_pack/engine/emitter
 	name = "Emitter Crate"
-	desc = "Useful for powering forcefield generators while destroying locked crates and intruders alike. Contains two high-powered energy emitters. Requires Grand Artificer access to open."
+	desc = "Useful for powering forcefield generators while destroying locked crates and intruders alike. Contains two high-powered energy emitters. Requires Chief Engineer access to open."
 	cost = CARGO_CRATE_VALUE * 7
 	access = ACCESS_CE
 	contains = list(/obj/machinery/power/emitter,
@@ -1030,7 +1030,7 @@
 
 /datum/supply_pack/engine/supermatter_shard
 	name = "Supermatter Shard Crate"
-	desc = "The power of the heavens condensed into a single crystal. Requires Grand Artificer access to open."
+	desc = "The power of the heavens condensed into a single crystal. Requires Chief Engineer access to open."
 	cost = CARGO_CRATE_VALUE * 20
 	access = ACCESS_CE
 	contains = list(/obj/machinery/power/supermatter_crystal/shard)
@@ -1051,7 +1051,7 @@
 
 /datum/supply_pack/engine/hypertorus_fusion_reactor
 	name = "HFR Crate"
-	desc = "The new and improved fusion reactor. Requires Grand Artificer access to open."
+	desc = "The new and improved fusion reactor. Requires Chief Engineer access to open."
 	cost = CARGO_CRATE_VALUE * 23
 	access = ACCESS_CE
 	contains = list(/obj/item/hfr_box/corner,
@@ -1348,7 +1348,7 @@
 
 /datum/supply_pack/medical/virus
 	name = "Virus Crate"
-	desc = "Contains twelve different bottles, containing several viral samples for virology research. Also includes seven beakers and syringes. Balled-up jeans not included. Requires Biolab Overseer access to open."
+	desc = "Contains twelve different bottles, containing several viral samples for virology research. Also includes seven beakers and syringes. Balled-up jeans not included. Requires Chief Medical Officer access to open."
 	cost = CARGO_CRATE_VALUE * 5
 	access = ACCESS_CMO
 	access_view = ACCESS_VIROLOGY
@@ -1496,7 +1496,7 @@
 
 /datum/supply_pack/science/transfer_valves
 	name = "Tank Transfer Valves Crate"
-	desc = "The key ingredient for making a lot of people very angry very fast. Contains two tank transfer valves. Requires Research Overseer access to open."
+	desc = "The key ingredient for making a lot of people very angry very fast. Contains two tank transfer valves. Requires Research Director access to open."
 	cost = CARGO_CRATE_VALUE * 12
 	access = ACCESS_RD
 	contains = list(/obj/item/transfer_valve,
@@ -1709,13 +1709,13 @@
 	crate_name = "replacement lights"
 
 /datum/supply_pack/service/minerkit
-	name = "Salvage Crew Starter Kit"
-	desc = "All the scrappers died too fast? Assistant wants to get a taste of life off-station? Either way, this kit is the best way to turn a regular crewman into an ore-producing, monster-slaying machine. Contains meson goggles, a pickaxe, advanced mining scanner, cargo headset, ore bag, gasmask, an explorer suit and a miner ID upgrade. Requires QM access to open."
+	name = "Shaft Miner Starter Kit"
+	desc = "All the miners died too fast? Assistant wants to get a taste of life off-station? Either way, this kit is the best way to turn a regular crewman into an ore-producing, monster-slaying machine. Contains meson goggles, a pickaxe, advanced mining scanner, cargo headset, ore bag, gasmask, an explorer suit and a miner ID upgrade. Requires QM access to open."
 	cost = CARGO_CRATE_VALUE * 4
 	access = ACCESS_QM
 	access_view = ACCESS_SALVAGECREW_STATION
 	contains = list(/obj/item/storage/backpack/duffelbag/salvage_conscript)
-	crate_name = "salvage crew starter kit"
+	crate_name = "shaft miner starter kit"
 	crate_type = /obj/structure/closet/crate/secure
 
 /datum/supply_pack/service/survivalknives
@@ -2466,7 +2466,7 @@
 
 /datum/supply_pack/costumes_toys/randomised/toys
 	name = "Toy Crate"
-	desc = "Who cares about pride and accomplishment? Skip the gaming and get straight to the sweet rewards with this product! Contains five random toys. Warranty void if used to prank research overseers."
+	desc = "Who cares about pride and accomplishment? Skip the gaming and get straight to the sweet rewards with this product! Contains five random toys. Warranty void if used to prank research directors."
 	cost = CARGO_CRATE_VALUE * 8 // or play the arcade machines ya lazy bum
 	num_contained = 5
 	contains = list()

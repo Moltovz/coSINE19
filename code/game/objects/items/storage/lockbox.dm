@@ -161,7 +161,7 @@
 		. += medalicon
 
 /obj/item/storage/lockbox/medal/hop
-	name = "Seneschal medal box"
+	name = "Head of Personnel medal box"
 	desc = "A locked box used to store medals to be given to those exhibiting excellence in management."
 	req_access = list(ACCESS_HOP)
 

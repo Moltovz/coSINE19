@@ -106,23 +106,23 @@
 	abstract_type = /obj/structure/statue/gold
 
 /obj/structure/statue/gold/hos
-	name = "statue of the justiciar"
+	name = "statue of the head of security"
 	icon_state = "hos"
 
 /obj/structure/statue/gold/hop
-	name = "statue of the seneschal"
+	name = "statue of the head of personnel"
 	icon_state = "hop"
 
 /obj/structure/statue/gold/cmo
-	name = "statue of the biolab overseer"
+	name = "statue of the chief medical officer"
 	icon_state = "cmo"
 
 /obj/structure/statue/gold/ce
-	name = "statue of the grand artificer"
+	name = "statue of the chief engineer"
 	icon_state = "ce"
 
 /obj/structure/statue/gold/rd
-	name = "statue of the research overseer"
+	name = "statue of the research director"
 	icon_state = "rd"
 
 //////////////////////////silver///////////////////////////////////////

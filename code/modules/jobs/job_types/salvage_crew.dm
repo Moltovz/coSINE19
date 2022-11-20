@@ -7,7 +7,7 @@
 	faction = FACTION_STATION
 	total_positions = 3
 	spawn_positions = 3
-	supervisors = "the quartermaster and the seneschal"
+	supervisors = "the quartermaster and the head of personnel"
 	selection_color = "#dcba97"
 	exp_granted_type = EXP_TYPE_CREW
 
@@ -29,7 +29,7 @@
 
 
 /datum/outfit/job/salvage_crew
-	name = "Salvage Crew"
+	name = "Shaft Miner"
 	jobtype = /datum/job/salvage_crew
 
 	id_trim = /datum/id_trim/job/salvage_crew
@@ -56,7 +56,7 @@
 	skillchips = list(/obj/item/skillchip/job/off_z_pain_resistance)
 
 /datum/outfit/job/salvage_crew/equipped
-	name = "Salvage Crew (Equipment)"
+	name = "Shaft Miner (Equipment)"
 
 	suit = /obj/item/clothing/suit/hooded/explorer
 	suit_store = /obj/item/tank/internals/oxygen
@@ -80,7 +80,7 @@
 		S.ToggleHood()
 
 /datum/outfit/job/salvage_crew/equipped/mod
-	name = "Salvage Crew (Equipment + MODsuit)"
+	name = "Shaft Miner (Equipment + MODsuit)"
 	back = /obj/item/mod/control/pre_equipped/salvage
 	suit = null
 	mask = /obj/item/clothing/mask/gas/explorer

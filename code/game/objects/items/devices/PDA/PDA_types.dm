@@ -122,29 +122,29 @@
 	greyscale_colors = "#789876#a92323"
 
 /obj/item/pda/heads/hop
-	name = "seneschal PDA"
+	name = "head of personnel PDA"
 	default_cartridge = /obj/item/cartridge/hop
 
 /obj/item/pda/heads/hos
-	name = "justiciar PDA"
+	name = "head of security PDA"
 	default_cartridge = /obj/item/cartridge/hos
 	greyscale_config = /datum/greyscale_config/pda/head
 	greyscale_colors = "#cc4242#0000cc"
 
 /obj/item/pda/heads/ce
-	name = "grand artificer PDA"
+	name = "chief engineer PDA"
 	default_cartridge = /obj/item/cartridge/ce
 	greyscale_config = /datum/greyscale_config/pda/stripe_thick/head
 	greyscale_colors = "#C4A56D#69DBF3#e2e2e2"
 
 /obj/item/pda/heads/cmo
-	name = "biolab overseer PDA"
+	name = "chief medical officer PDA"
 	default_cartridge = /obj/item/cartridge/cmo
 	greyscale_config = /datum/greyscale_config/pda/stripe_thick/head
 	greyscale_colors = "#e2e2e2#000099#5d99be"
 
 /obj/item/pda/heads/rd
-	name = "research overseer PDA"
+	name = "research director PDA"
 	default_cartridge = /obj/item/cartridge/rd
 	insert_type = /obj/item/pen/fountain
 	greyscale_config = /datum/greyscale_config/pda/stripe_thick/head
@@ -174,7 +174,7 @@
 	greyscale_colors = "#D6B328#6506ca#927444"
 
 /obj/item/pda/salvagecrew
-	name = "salvage crew PDA"
+	name = "shaft miner PDA"
 	greyscale_config = /datum/greyscale_config/pda/stripe_thick
 	greyscale_colors = "#927444#D6B328#6C3BA1"
 

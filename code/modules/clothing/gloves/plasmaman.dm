@@ -91,13 +91,13 @@
 	inhand_icon_state = "hopplasma"
 
 /obj/item/clothing/gloves/color/plasmaman/chief_engineer
-	name = "grand artificer's envirogloves"
+	name = "chief engineer's envirogloves"
 	icon_state = "ceplasma"
 	inhand_icon_state = "ceplasma"
 	siemens_coefficient = 0
 
 /obj/item/clothing/gloves/color/plasmaman/research_director
-	name = "research overseer's envirogloves"
+	name = "research director's envirogloves"
 	icon_state = "rdplasma"
 	inhand_icon_state = "rdplasma"
 

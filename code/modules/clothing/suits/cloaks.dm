@@ -15,7 +15,7 @@
 	return(OXYLOSS)
 
 /obj/item/clothing/neck/cloak/hos
-	name = "justiciar's cloak"
+	name = "head of security's cloak"
 	desc = "Worn by Securistan, ruling the station with an iron fist."
 	icon_state = "hoscloak"
 
@@ -24,29 +24,29 @@
 	desc = "Worn by Cargonia, supplying the station with the necessary tools for survival."
 
 /obj/item/clothing/neck/cloak/cmo
-	name = "biolab overseer's cloak"
+	name = "chief medical officer's cloak"
 	desc = "Worn by Meditopia, the valiant men and women keeping pestilence at bay."
 	icon_state = "cmocloak"
 
 /obj/item/clothing/neck/cloak/ce
-	name = "grand artificer's cloak"
+	name = "chief engineer's cloak"
 	desc = "Worn by Engitopia, wielders of an unlimited power."
 	icon_state = "cecloak"
 	resistance_flags = FIRE_PROOF
 
 /obj/item/clothing/neck/cloak/rd
-	name = "chiron research overseer's cloak"
+	name = "research director's cloak"
 	desc = "Worn by Sciencia, thaumaturges and researchers of the universe."
 	icon_state = "rdcloak"
 
 /obj/item/clothing/neck/cloak/cap
-	name = "exarch's cloak"
+	name = "captain's cloak"
 	desc = "Worn by the leader of the Upper Decks."
 	icon_state = "capcloak"
 
 /obj/item/clothing/neck/cloak/hop
-	name = "seneschal's cloak"
-	desc = "Worn by the Seneschal. It smells faintly of bureaucracy."
+	name = "head of personnel's cloak"
+	desc = "Worn by the Head of Personnel. It smells faintly of bureaucracy."
 	icon_state = "hopcloak"
 
 /obj/item/clothing/suit/hooded/cloak/goliath

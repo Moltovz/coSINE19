@@ -1,6 +1,6 @@
 /datum/job/chief_medical_officer
 	title = JOB_CHIEF_MEDICAL_OFFICER
-	description = "The head of the Medical division of Chiron on the Upper Decks. Coordinate doctors and other medbay employees, ensure they \
+	description = "The head of the Medical division on the station. Coordinate doctors and other medbay employees, ensure they \
 		know how to save lives, check for injuries on the crew monitor. This is an extremely challenging position with high expectations, not recommended for new players."
 	department_head = list(JOB_CAPTAIN)
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
@@ -8,7 +8,7 @@
 	faction = FACTION_STATION
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Exarch"
+	supervisors = "the Captain"
 	selection_color = "#ffddf0"
 	req_admin_notify = 1
 	minimal_player_age = 7
@@ -46,11 +46,11 @@
 
 
 /datum/job/chief_medical_officer/get_captaincy_announcement(mob/living/captain)
-	return "Due to staffing shortages, newly promoted Acting Exarch [captain.real_name] on deck!"
+	return "Due to staffing shortages, newly promoted Captain [captain.real_name] on deck!"
 
 
 /datum/outfit/job/cmo
-	name = "Chiron Biolab Overseer"
+	name = "Chief Medical Officer"
 	jobtype = /datum/job/chief_medical_officer
 
 	id = /obj/item/card/id/advanced/silver
@@ -81,7 +81,7 @@
 	skillchips = list(/obj/item/skillchip/entrails_reader)
 
 /datum/outfit/job/cmo/mod
-	name = "Chiron Biolab Overseer (MODsuit)"
+	name = "Chief Medical Officer (MODsuit)"
 
 	suit_store = /obj/item/tank/internals/oxygen
 	back = /obj/item/mod/control/pre_equipped/rescue

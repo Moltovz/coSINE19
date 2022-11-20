@@ -9,7 +9,7 @@
 	faction = FACTION_STATION
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Exarch"
+	supervisors = "the Captain"
 	selection_color = "#ffddff"
 	req_admin_notify = 1
 	minimal_player_age = 7
@@ -47,7 +47,7 @@
 
 
 /datum/job/research_director/get_captaincy_announcement(mob/living/captain)
-	return "Due to staffing shortages, newly promoted Acting Exarch [captain.real_name] on deck!"
+	return "Due to staffing shortages, newly promoted Acting Captain [captain.real_name] on deck!"
 
 
 /datum/outfit/job/rd
@@ -76,7 +76,7 @@
 	skillchips = list(/obj/item/skillchip/job/research_director)
 
 /datum/outfit/job/rd/mod
-	name = "Chiron Research Overseer (MODsuit)"
+	name = "Research Director (MODsuit)"
 
 	suit_store = /obj/item/tank/internals/oxygen
 	back = /obj/item/mod/control/pre_equipped/research

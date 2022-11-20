@@ -199,21 +199,21 @@
 	head = /obj/item/clothing/head/helmet/space/plasmaman/security/head_of_security
 
 /datum/outfit/plasmaman/chief_engineer
-	name = "Grand Artificer Plasmaman"
+	name = "Chief Engineer Plasmaman"
 
 	uniform = /obj/item/clothing/under/plasmaman/chief_engineer
 	gloves = /obj/item/clothing/gloves/color/plasmaman/chief_engineer
 	head = /obj/item/clothing/head/helmet/space/plasmaman/chief_engineer
 
 /datum/outfit/plasmaman/chief_medical_officer
-	name = "Biolab Overseer Plasmaman"
+	name = "Chief Medical Officer Plasmaman"
 
 	uniform = /obj/item/clothing/under/plasmaman/chief_medical_officer
 	gloves = /obj/item/clothing/gloves/color/plasmaman/white
 	head = /obj/item/clothing/head/helmet/space/plasmaman/chief_medical_officer
 
 /datum/outfit/plasmaman/research_director
-	name = "Research Overseer Plasmaman"
+	name = "Research Director Plasmaman"
 
 	uniform = /obj/item/clothing/under/plasmaman/research_director
 	gloves = /obj/item/clothing/gloves/color/plasmaman/research_director

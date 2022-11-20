@@ -264,7 +264,7 @@
   Xhuis:
   - tweak: Cogscarabs can now experiment more freely with base design during non-clockcult
       rounds with infinite power and the ability to recite scripture!
-  - bugfix: The Ark of the Clockwork Justiciar is now registered as a hostile environment.
+  - bugfix: The Ark of the Clockwork Head of Security is now registered as a hostile environment.
   - refactor: Clockwork scripture now has one progress bar for the entire recital
       instead of multiple ones for each sentence in the invocation.
   - bugfix: Ocular wardens no longer have a burning hatred for revenants and won't
