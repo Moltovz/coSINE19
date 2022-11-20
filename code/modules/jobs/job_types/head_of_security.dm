@@ -1,6 +1,6 @@
 /datum/job/head_of_security
 	title = JOB_HEAD_OF_SECURITY
-	description = "The Justiciar manages the Home Guard as well as legal proceedings. Coordinate security personnel, ensure they are not corrupt, \
+	description = "The Head of Security manages the Home Guard as well as legal proceedings. Coordinate security personnel, ensure they are not corrupt, \
 		make sure every department is protected. This is an extremely challenging position with high expectations, not recommended for new players."
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD|DEADMIN_POSITION_SECURITY
 	department_head = list(JOB_CAPTAIN)
@@ -8,7 +8,7 @@
 	faction = FACTION_STATION
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Exarch"
+	supervisors = "the Captain"
 	selection_color = "#ffdddd"
 	req_admin_notify = 1
 	minimal_player_age = 14
@@ -41,11 +41,11 @@
 
 
 /datum/job/head_of_security/get_captaincy_announcement(mob/living/captain)
-	return "Due to staffing shortages, newly promoted Acting Exarch [captain.real_name] on deck!"
+	return "Due to staffing shortages, newly promoted Acting Captain [captain.real_name] on deck!"
 
 
 /datum/outfit/job/hos
-	name = "Justiciar"
+	name = "Head of Security"
 	jobtype = /datum/job/head_of_security
 
 	id = /obj/item/card/id/advanced/silver
@@ -78,7 +78,7 @@
 	implants = list(/obj/item/implant/mindshield)
 
 /datum/outfit/job/hos/mod
-	name = "Justiciar (MODsuit)"
+	name = "Head of Security (MODsuit)"
 
 	suit_store = /obj/item/tank/internals/oxygen
 	back = /obj/item/mod/control/pre_equipped/safeguard

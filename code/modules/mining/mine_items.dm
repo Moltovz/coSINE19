@@ -19,10 +19,10 @@
 /obj/effect/light_emitter/singularity_act()
 	return
 
-/**********************Salvage Crew Lockers**************************/
+/**********************Shaft Miner Lockers**************************/
 
 /obj/structure/closet/wardrobe/salvagecrew
-	name = "salvage wardrobe"
+	name = "miner wardrobe"
 	icon_door = "mixed"
 
 /obj/structure/closet/wardrobe/salvagecrew/PopulateContents()
@@ -43,7 +43,7 @@
 	new /obj/item/clothing/suit/hooded/wintercoat/salvage(src)
 
 /obj/structure/closet/secure_closet/salvagecrew
-	name = "salvage crew equipment"
+	name = "shaft miner equipment"
 	icon_state = "salvage"
 	req_access = list(ACCESS_SALVAGECREW)
 
@@ -70,11 +70,11 @@
 /**********************Shuttle Computer**************************/
 
 /obj/machinery/computer/shuttle/salvage
-	name = "salvage shuttle console"
-	desc = "Used to call and send the salvage shuttle."
+	name = "mining shuttle console"
+	desc = "Used to call and send the mining shuttle."
 	circuit = /obj/item/circuitboard/computer/salvage_shuttle
-	shuttleId = "mining" // Unchanged because it'd be a nightmare
-	possible_destinations = "mining_home;mining_away;landing_zone_dock;mining_public" // Ditto
+	shuttleId = "mining"
+	possible_destinations = "mining_home;mining_away;landing_zone_dock;mining_public"
 	no_destination_swap = TRUE
 	var/static/list/dumb_rev_heads = list()
 

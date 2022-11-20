@@ -1,6 +1,6 @@
 /datum/job/captain
 	title = JOB_CAPTAIN
-	description = "The Exarch is the one who rules the Upper Decks in the name of the Lord Admiral. This is an extremely challenging position with high expectations, not recommended for new players."
+	description = "The Captain is the one who rules the Upper Decks in the name of the Lord Admiral. This is an extremely challenging position with high expectations, not recommended for new players."
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD|DEADMIN_POSITION_SECURITY
 	department_head = list("CentCom")
 	faction = FACTION_STATION
@@ -45,7 +45,7 @@
 
 
 /datum/job/captain/get_captaincy_announcement(mob/living/captain)
-	return "Exarch [captain.real_name] on deck!"
+	return "Captain [captain.real_name] on deck!"
 
 
 /datum/outfit/job/captain

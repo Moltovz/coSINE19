@@ -6,7 +6,7 @@
 	faction = FACTION_STATION
 	total_positions = 5 //Handled in /datum/controller/occupations/proc/setup_officer_positions()
 	spawn_positions = 5 //Handled in /datum/controller/occupations/proc/setup_officer_positions()
-	supervisors = "the Justiciar"
+	supervisors = "the Head of Security"
 	selection_color = "#ffeeee"
 	minimal_player_age = 7
 	exp_requirements = 300

@@ -151,8 +151,8 @@
 	inhand_icon_state = "securitypack"
 
 /obj/item/storage/backpack/captain
-	name = "exarch's backpack"
-	desc = "It's a special backpack made exclusively for the Exarch."
+	name = "captain's backpack"
+	desc = "It's a special backpack made exclusively for the Captain."
 	icon_state = "captainpack"
 	inhand_icon_state = "captainpack"
 
@@ -308,8 +308,8 @@
 	inhand_icon_state = "satchel-explorer"
 
 /obj/item/storage/backpack/satchel/cap
-	name = "exarch's satchel"
-	desc = "An exclusive satchel for the Exarch."
+	name = "captain's satchel"
+	desc = "An exclusive satchel for the Captain."
 	icon_state = "satchel-cap"
 	inhand_icon_state = "satchel-cap"
 
@@ -376,8 +376,8 @@
 	AddComponent(/datum/component/curse_of_hunger, add_dropdel)
 
 /obj/item/storage/backpack/duffelbag/captain
-	name = "exarch's duffel bag"
-	desc = "A large duffel bag for holding extra exarchy goods."
+	name = "captain's duffel bag"
+	desc = "A large duffel bag for holding extra captainy goods."
 	icon_state = "duffel-captain"
 	inhand_icon_state = "duffel-captain"
 

@@ -7,27 +7,27 @@
 	resistance_flags = FLAMMABLE
 
 /obj/item/storage/bag/garment/captain
-	name = "exarch's garment bag"
-	desc = "A bag for storing extra clothes and shoes. This one belongs to the exarch."
+	name = "captain's garment bag"
+	desc = "A bag for storing extra clothes and shoes. This one belongs to the captain."
 
 /obj/item/storage/bag/garment/hos
-	name = "justiciar's garment bag"
-	desc = "A bag for storing extra clothes and shoes. This one belongs to the justiciar."
+	name = "head of security's garment bag"
+	desc = "A bag for storing extra clothes and shoes. This one belongs to the head of security."
 
 /obj/item/storage/bag/garment/hop
-	name = "seneschal's garment bag"
-	desc = "A bag for storing extra clothes and shoes. This one belongs to the seneschal."
+	name = "head of personnel's garment bag"
+	desc = "A bag for storing extra clothes and shoes. This one belongs to the head of personnel."
 
 /obj/item/storage/bag/garment/research_director
-	name = "chiron research overseer's garment bag"
-	desc = "A bag for storing extra clothes and shoes. This one belongs to the chiron research overseer."
+	name = "research director's garment bag"
+	desc = "A bag for storing extra clothes and shoes. This one belongs to the research director."
 
 /obj/item/storage/bag/garment/chief_medical
-	name = "chiron biolab overseer's garment bag"
-	desc = "A bag for storing extra clothes and shoes. This one belongs to the biolab overseer."
+	name = "chief medical officer's garment bag"
+	desc = "A bag for storing extra clothes and shoes. This one belongs to the chief medical officer."
 
 /obj/item/storage/bag/garment/engineering_chief
-	name = "mekhane grand artificer's garment bag"
+	name = "chief engineer's garment bag"
 	desc = "A bag for storing extra clothes and shoes. This one belongs to the grand artificer."
 
 /obj/item/storage/bag/garment/ComponentInitialize()

@@ -99,8 +99,8 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	icon_state = "Cook"
 
 /obj/effect/landmark/start/salvage_crew
-	name = "Salvage Crew"
-	icon_state = "Salvage Crew"
+	name = "Shaft Miner"
+	icon_state = "Shaft Miner"
 
 /obj/effect/landmark/start/security_officer
 	name = "Security Officer"
@@ -131,8 +131,8 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	icon_state = "Chief Engineer"
 
 /obj/effect/landmark/start/head_of_personnel
-	name = "Seneschal"
-	icon_state = "Seneschal"
+	name = "Head of Personnel"
+	icon_state = "Head of Personnel"
 
 /obj/effect/landmark/start/librarian
 	name = "Curator"

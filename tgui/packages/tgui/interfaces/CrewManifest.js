@@ -6,9 +6,9 @@ import { Window } from "../layouts";
 const commandJobs = [
   "Head of Personnel",
   "Head of Security",
-  "Grand Artificer",
-  "Research Overseer",
-  "Biolab Overseer",
+  "Chief Engineer",
+  "Research Director",
+  "Chief Medical Officer",
 ];
 
 export const CrewManifest = (props, context) => {

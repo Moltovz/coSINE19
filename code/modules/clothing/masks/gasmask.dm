@@ -105,7 +105,7 @@
 	max_filters = 3
 
 /obj/item/clothing/mask/gas/atmos/captain
-	name = "exarch's gas mask"
+	name = "captain's gas mask"
 	desc = "The Unity cut corners and repainted a spare atmospheric gas mask, but don't tell anyone."
 	icon_state = "gas_cap"
 	inhand_icon_state = "gas_cap"
