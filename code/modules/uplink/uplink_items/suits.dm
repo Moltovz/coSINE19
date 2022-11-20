@@ -1,0 +1,70 @@
+// File ordered by progression
+
+/datum/uplink_category/suits
+	name = "Space Suits"
+	weight = 3
+
+/datum/uplink_item/suits
+	category = /datum/uplink_category/suits
+	surplus = 40
+
+/datum/uplink_item/suits/infiltrator_bundle
+	name = "Infiltrator Case"
+	desc = "The Last Edict's special brand of internal armor. While not spaceproof, it's an all rounder and good for more \
+			subtle operations. Comes with an armor vest, helmet, sneaksuit, sneakboots, specialized combat gloves and a \
+			high-tech balaclava. The case is also rather useful as a storage container."
+	item = /obj/item/storage/toolbox/infiltrator
+	cost = 6
+	limited_stock = 1 //you only get one so you don't end up with too many gun cases
+	purchasable_from = ~(UPLINK_NUKE_OPS | UPLINK_CLOWN_OPS)
+
+/datum/uplink_item/suits/space_suit
+	name = "Edict Space Suit"
+	desc = "This Edict space suit is less encumbering than Unity variants, \
+			fits inside bags, and has a weapon slot."
+	item = /obj/item/storage/box/edict_kit/space
+	cost = 4
+
+// Low progression cost
+
+/datum/uplink_item/suits/modsuit
+	name = "Last Edict MODsuit"
+	desc = "A heavily modified Scrapper Modsuit - put fear into your enemies with your mere presence! \
+			Features armoring and a set of select modules to enhance your combat capabilities."
+	item = /obj/item/mod/control/pre_equipped/traitor
+	cost = 8
+	purchasable_from = ~(UPLINK_NUKE_OPS | UPLINK_CLOWN_OPS) //you can't buy it in nuke, because the elite modsuit costs the same while being better
+	progression_minimum = 20 MINUTES
+
+/datum/uplink_item/suits/thermal
+	name = "MODsuit Thermal Visor Module"
+	desc = "A visor for a MODsuit. Lets you see living beings through walls."
+	item = /obj/item/mod/module/visor/thermal
+	progression_minimum = 20 MINUTES
+	cost = 3
+
+/datum/uplink_item/suits/night
+	name = "MODsuit Night Visor Module"
+	desc = "A visor for a MODsuit. Lets you see clearer in the dark."
+	item = /obj/item/mod/module/visor/night
+	progression_minimum = 20 MINUTES
+	cost = 2
+
+// Very high progression cost
+
+/datum/uplink_item/suits/modsuit/elite_traitor
+	name = "Elite MODsuit"
+	desc = "An upgraded, elite version of the Edict MODsuit. It features fireproofing, and also \
+			provides the user with superior armor and mobility compared to the standard Edict MODsuit."
+	item = /obj/item/mod/control/pre_equipped/elite
+	// This one costs more than the nuke op counterpart
+	purchasable_from = ~(UPLINK_NUKE_OPS | UPLINK_CLOWN_OPS)
+	progression_minimum = 90 MINUTES
+	cost = 16
+
+/datum/uplink_item/suits/noslip
+	name = "MODsuit Anti-Slip Module"
+	desc = "A MODsuit module preventing the user from slipping on water."
+	item = /obj/item/mod/module/noslip
+	progression_minimum = 90 MINUTES
+	cost = 4
