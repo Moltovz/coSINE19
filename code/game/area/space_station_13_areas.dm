@@ -569,27 +569,27 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	sound_environment = SOUND_AREA_WOODFLOOR
 
 /area/command/heads_quarters/ce
-	name = "\improper Grand Artificer's Office"
+	name = "\improper Chief Engineer's Office"
 	icon_state = "ce_office"
 
 /area/command/heads_quarters/cmo
-	name = "\improper Chiron Biolab Overseer's Office"
+	name = "\improper Chief Medical Officer's Office"
 	icon_state = "cmo_office"
 
 /area/command/heads_quarters/hop
-	name = "\improper Seneschal's Office"
+	name = "\improper Head of Personnel's Office"
 	icon_state = "hop_office"
 
 /area/command/heads_quarters/hop/private
-	name = "\improper Seneschal's Quarters"
+	name = "\improper Head of Personnel's Quarters"
 	icon_state = "hop_private"
 
 /area/command/heads_quarters/hos
-	name = "\improper Head of Security's Office"
+	name = "\improper Head of Personnel's Office"
 	icon_state = "hos_office"
 
 /area/command/heads_quarters/rd
-	name = "\improper Research Overseer's Office"
+	name = "\improper Research Director's Office"
 	icon_state = "rd_office"
 
 //Command - Teleporters

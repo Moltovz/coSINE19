@@ -124,7 +124,7 @@
 	job = /datum/job/bartender
 
 /datum/id_trim/job/botanist
-	assignment = "Hydroponicist"
+	assignment = "Botanist"
 	trim_state = "trim_botanist"
 	department_color = COLOR_SERVICE_LIME
 	subdepartment_color = COLOR_SERVICE_LIME
@@ -136,7 +136,7 @@
 	job = /datum/job/botanist
 
 /datum/id_trim/job/captain
-	assignment = "Exarch"
+	assignment = "Captain"
 	intern_alt_name = "Captain-in-Training"
 	trim_state = "trim_captain"
 	department_color = COLOR_COMMAND_BLUE
@@ -202,8 +202,8 @@
 	job = /datum/job/chemist
 
 /datum/id_trim/job/chief_engineer
-	assignment = "Mekhane Grand Artificer"
-	intern_alt_name = "Grand Artificer-in-Training"
+	assignment = "Chief Engineer"
+	intern_alt_name = "Chief Engineer-in-Training"
 	trim_state = "trim_stationengineer"
 	department_color = COLOR_COMMAND_BLUE
 	subdepartment_color = COLOR_ENGINEERING_ORANGE
@@ -220,8 +220,8 @@
 	job = /datum/job/chief_engineer
 
 /datum/id_trim/job/chief_medical_officer
-	assignment = "Chiron Biolab Overseer"
-	intern_alt_name = "Biolab Overseer-in-Training"
+	assignment = "Chief Medical Officer"
+	intern_alt_name = "Chief Medical Officer-in-Training"
 	trim_state = "trim_medicaldoctor"
 	department_color = COLOR_COMMAND_BLUE
 	subdepartment_color = COLOR_MEDICAL_BLUE
@@ -313,7 +313,7 @@
 	job = /datum/job/geneticist
 
 /datum/id_trim/job/head_of_personnel
-	assignment = "Seneschal"
+	assignment = "Head of Personnel"
 	intern_alt_name = "Head of Personnel-in-Training"
 	trim_state = "trim_headofpersonnel"
 	department_color = COLOR_COMMAND_BLUE
@@ -334,7 +334,7 @@
 	job = /datum/job/head_of_personnel
 
 /datum/id_trim/job/head_of_security
-	assignment = "Justiciar"
+	assignment = "Head of Security"
 	intern_alt_name = "Head of Security-in-Training"
 	trim_state = "trim_securityofficer"
 	department_color = COLOR_COMMAND_BLUE
@@ -488,8 +488,8 @@
 	job = /datum/job/quartermaster
 
 /datum/id_trim/job/research_director
-	assignment = "Chiron Research Overseer"
-	intern_alt_name = "Research Overseer-in-Training"
+	assignment = "Research Director"
+	intern_alt_name = "Research Director-in-Training"
 	trim_state = "trim_scientist"
 	department_color = COLOR_COMMAND_BLUE
 	subdepartment_color = COLOR_SCIENCE_PINK
@@ -582,7 +582,7 @@
 	department_access = list(ACCESS_AUX_BASE, ACCESS_RESEARCH, ACCESS_SCIENCE)
 
 /datum/id_trim/job/salvage_crew
-	assignment = "Salvage Crew"
+	assignment = "Shaft Miner"
 	trim_state = "trim_salvagecrew"
 	department_color = COLOR_CARGO_BROWN
 	subdepartment_color = COLOR_SCIENCE_PINK

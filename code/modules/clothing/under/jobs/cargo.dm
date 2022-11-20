@@ -41,7 +41,7 @@
 /obj/item/clothing/under/rank/cargo/salvagecrew
 	desc = "It's a snappy jumpsuit with a sturdy set of overalls. Remarkably clean for it's \
 	intended purposes."
-	name = "salvage crew jumpsuit"
+	name = "shaft miner jumpsuit"
 	icon_state = "salvage"
 	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 80, ACID = 0, WOUND = 10)
 	resistance_flags = NONE

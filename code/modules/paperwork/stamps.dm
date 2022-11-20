@@ -28,32 +28,32 @@
 	dye_color = DYE_LAW
 
 /obj/item/stamp/captain
-	name = "exarch's rubber stamp"
+	name = "captain's rubber stamp"
 	icon_state = "stamp-cap"
 	dye_color = DYE_CAPTAIN
 
 /obj/item/stamp/hop
-	name = "seneschal's rubber stamp"
+	name = "head of personnel's rubber stamp"
 	icon_state = "stamp-hop"
 	dye_color = DYE_HOP
 
 /obj/item/stamp/hos
-	name = "justiciar's rubber stamp"
+	name = "head of security's rubber stamp"
 	icon_state = "stamp-hos"
 	dye_color = DYE_HOS
 
 /obj/item/stamp/ce
-	name = "grand artificer's rubber stamp"
+	name = "chief engineer's rubber stamp"
 	icon_state = "stamp-ce"
 	dye_color = DYE_CE
 
 /obj/item/stamp/rd
-	name = "chiron research overseer's rubber stamp"
+	name = "research director's rubber stamp"
 	icon_state = "stamp-rd"
 	dye_color = DYE_RD
 
 /obj/item/stamp/cmo
-	name = "biolab overseer's rubber stamp"
+	name = "chief medical officer's rubber stamp"
 	icon_state = "stamp-cmo"
 	dye_color = DYE_CMO
 

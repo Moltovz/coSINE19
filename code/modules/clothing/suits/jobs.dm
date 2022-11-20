@@ -22,8 +22,8 @@
 
 //Captain
 /obj/item/clothing/suit/capjacket
-	name = "exarch's parade jacket"
-	desc = "Worn by the Exarch to show their class."
+	name = "captain's parade jacket"
+	desc = "Worn by the Captain to show their class."
 	icon_state = "capjacket"
 	inhand_icon_state = "bio_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
@@ -145,7 +145,7 @@
 	body_parts_covered = CHEST|ARMS
 
 /obj/item/clothing/suit/security/hos
-	name = "justiciar's jacket"
+	name = "head of security's jacket"
 	desc = "This piece of clothing was specifically designed for asserting superior authority."
 	icon_state = "hosbluejacket"
 	inhand_icon_state = "hosbluejacket"

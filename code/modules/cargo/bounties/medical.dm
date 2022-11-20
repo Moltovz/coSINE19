@@ -81,7 +81,7 @@
 
 /datum/bounty/item/medical/chainsaw
 	name = "Chainsaw"
-	description = "A Biolab Overseer at CentCom is having trouble operating on demonic hellspawn. She requests one chainsaw, please."
+	description = "A Chief Medical Officer at CentCom is having trouble operating on demonic hellspawn. She requests one chainsaw, please."
 	reward = CARGO_CRATE_VALUE * 5
 	wanted_types = list(/obj/item/chainsaw = TRUE)
 

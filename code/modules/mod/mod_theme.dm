@@ -679,7 +679,7 @@
 
 /datum/mod_theme/magnate
 	name = "magnate"
-	desc = "A fancy, very protective suit for the Exarch. Shock, fire and acid-proof while also having a large capacity and high speed."
+	desc = "A fancy, very protective suit for the Captain. Shock, fire and acid-proof while also having a large capacity and high speed."
 	default_skin = "magnate"
 	armor = list(MELEE = 20, BULLET = 15, LASER = 15, ENERGY = 15, BOMB = 50, BIO = 100, FIRE = 100, ACID = 100, WOUND = 15)
 	resistance_flags = FIRE_PROOF|ACID_PROOF

@@ -1,12 +1,12 @@
 /datum/job/quartermaster
 	title = JOB_QUARTERMASTER
-	description = "The head of the Conservators on the Upper Decks. Coordinate cargo technicians and salvage crew, assist with \
+	description = "The head of the Conservators on the Upper Decks. Coordinate cargo technicians and shaft miners, assist with \
 		economical purchasing. This is an extremely challenging position with high expectations, not recommended for new players."
 	department_head = list(JOB_HEAD_OF_PERSONNEL)
 	faction = FACTION_STATION
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Exarch"
+	supervisors = "the Captain"
 	selection_color = "#d7b088"
 	exp_required_type_department = EXP_TYPE_SUPPLY
 	exp_granted_type = EXP_TYPE_CREW
